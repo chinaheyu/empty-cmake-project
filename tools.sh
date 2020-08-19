@@ -22,7 +22,11 @@ else
 
     if [ $1 = "init" ];
     then
-        rm -rf build/*
+        rm -rf .git
+        rm -f README.md
+        rm -f build/.gitkeep
+        rm -f include/.gitkeep
+        rm -f src/.gitkeep
     fi
 
     if [ $1 = "clean" ];

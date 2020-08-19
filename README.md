@@ -33,7 +33,7 @@
 ./tools.sh build
 ```
 
-清理整个build文件夹
+删除所有与GitHub有关内容，变成本地CMake工程
 
 ```bash
 ./tools.sh init

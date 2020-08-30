@@ -10,3 +10,5 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src DIR_SRCS)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_executable(${PROJECT_NAME} ${DIR_SRCS})
+
+target_link_libraries(${PROJECT_NAME} m)
